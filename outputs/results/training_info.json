@@ -1,0 +1,17 @@
+{
+  "tensorflow": "2.20.0",
+  "gpu": [
+    "/physical_device:GPU:0"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "batch_size": 32,
+  "seed": 42,
+  "epochs_run_phase1": 12,
+  "epochs_run_phase2": 9,
+  "fine_tune_at": 100,
+  "minutes_phase1": 4.7,
+  "minutes_phase2": 3.5
+}

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local tooling
+.claude/
+
+# Dataset (KonIQ-10k) — too large for GitHub; download separately
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/koniq10k_scores.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

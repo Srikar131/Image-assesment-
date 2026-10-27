@@ -1,0 +1,14 @@
+# TensorFlow and Keras must match the Colab versions the model was trained with,
+# or models/iqa_mobilenetv2.keras will not load. The saved file records the Keras
+# version that wrote it; read it with:
+#   python -c "import zipfile;print(zipfile.ZipFile('models/iqa_mobilenetv2.keras').read('metadata.json'))"
+tensorflow==2.20.0
+keras==3.13.2
+numpy==1.26.4
+pandas==2.1.4
+scipy==1.16.2
+matplotlib==3.10.8
+opencv-python-headless==5.0.0.93
+pillow==12.2.0
+streamlit==1.58.0
+pytest==9.1.1

@@ -1,0 +1,14 @@
+{
+  "sharpness": {
+    "low_below": 234.7473351737102,
+    "high_above": 1144.223811911002
+  },
+  "brightness": {
+    "low_below": 81.3575201924642,
+    "high_above": 131.164324798584
+  },
+  "contrast": {
+    "low_below": 40.51149188668996,
+    "high_above": 64.91148665433523
+  }
+}

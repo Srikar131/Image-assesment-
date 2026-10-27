@@ -1,0 +1,29 @@
+batch shapes: images (32, 224, 224, 3) <dtype: 'float32'>, labels (32,) <dtype: 'float32'>
+image value range: [-1.000, 1.000]
+untrained output range: [-0.4343, 2.1359], mean 0.7326
+untrained loss on one batch (MSE, normalised): 0.37728
+overfit test, 32 images, 15 epochs, frozen backbone, lr 1e-3:
+  epoch  1 loss 0.55756 mae 0.5739
+  epoch  2 loss 0.71728 mae 0.6015
+  epoch  3 loss 1.00716 mae 0.8308
+  epoch  4 loss 0.44407 mae 0.5454
+  epoch  5 loss 0.74796 mae 0.5987
+  epoch  6 loss 0.36057 mae 0.4807
+  epoch  7 loss 0.28602 mae 0.4032
+  epoch  8 loss 0.53636 mae 0.5573
+  epoch  9 loss 0.28388 mae 0.4325
+  epoch 10 loss 0.21843 mae 0.3830
+  epoch 11 loss 0.18395 mae 0.3693
+  epoch 12 loss 0.13865 mae 0.3080
+  epoch 13 loss 0.19053 mae 0.3439
+  epoch 14 loss 0.16119 mae 0.2772
+  epoch 15 loss 0.25071 mae 0.3789
+overfit test (longer run), 32 images, 60 epochs, frozen backbone, lr 1e-3:
+  epoch  1 loss 0.55756 mae 0.5739
+  epoch  5 loss 0.74796 mae 0.5987
+  epoch 10 loss 0.21843 mae 0.3830
+  epoch 20 loss 0.10935 mae 0.2746
+  epoch 30 loss 0.03610 mae 0.1617
+  epoch 40 loss 0.02991 mae 0.1398
+  epoch 50 loss 0.03716 mae 0.1510
+  epoch 60 loss 0.01693 mae 0.1085
